@@ -1,0 +1,29 @@
+#### Assumptions #####
+
+# Dynamic Data are not considered.
+# Delete Tets data is not considered.
+# Adding for different pets for this - "Create at least 4 pets with different tags & status"
+# Saving a pet id in the json file for this - "Store the id of the new pet in a json file"
+
+#### Pre requisite ####
+
+# Java (JDK 11 At Least/prefer java jdk 11)
+# Maven
+# VS code (if you want to run in the ide)
+# VS code karate runner
+
+#### How to execute ####
+
+# Unzip the file
+# Open terminal
+# Navigate to the project folder (QAAutomationAssignment)
+# Type 'mvn test' and hit Enter
+# Check logs in the terminal
+# Navigate to the test report folder "target/karate-report"
+# Check report of the assigment by opening "feature.petstore.pet.html" file in the browser
+
+#### Assignment info ####
+
+# Open this file "src/test/java/feature/petstore/pet.feature" and find all the given automated tests scenarios in the assignment pdf
+# In addition to that i have automated some scenarios. (store.feature, user.feature)
+# You can also find reports of the additonal test in the "target/karate-report" folder
